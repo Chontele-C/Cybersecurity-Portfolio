@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity Portfolio Lab
+🛡️ Cybersecurity Portfolio Lab
 
 Welcome to my personal cybersecurity lab! This repository showcases a collection of hands-on projects that demonstrate my skills in vulnerability simulation, system diagnostics, SIEM analysis, Linux/Windows security, and privilege escalation. Each project folder contains documentation and technical summaries to showcase my practical capabilities.
 
@@ -30,7 +30,11 @@ Exploited the AlwaysInstallElevated setting on Windows 10 to gain elevated privi
 ### 📈 [Winlogbeat & ELK Stack Lab](./winlogbeat-elk-stack-lab)  
 Built a centralized log collection and visualization environment using Winlogbeat, Elasticsearch, and Kibana to simulate a Security Operations Center (SOC) environment. Collected Windows Security Events from multiple endpoints and visualized them in dashboards for monitoring and analysis.
 
+<<<<<<< HEAD
 ### 🧠 [Windows Endpoint SOC Simulation using ELK & Sysmon](./Windows-Endpoint-SOC-Simulation-using-ELK-Sysmon)  
+=======
+### 🧠 [Windows Event Log Analysis & SOC Dashboard (ELK Stack)](./windows-event-log-soc-dashboard)  
+>>>>>>> 820ef81 (Add Windows Endpoint SOC Simulation Using ELK & Sysmon project)
 Developed advanced Kibana dashboards to monitor Windows security telemetry using **Sysmon**, **Winlogbeat**, and the **ELK Stack**.  
 This project simulates SOC monitoring workflows, including registry changes, PowerShell event tracing, Defender alerts, and simulated lateral movement.  
 All dashboards and visualizations are built from real Windows 10 and Server 2019 log data, showing event correlation and analysis capabilities.
@@ -64,3 +68,4 @@ Want to connect, collaborate, or ask questions?
 - GitHub: [Chontele-C](https://github.com/Chontele-C)  
 - LinkedIn: [Chontele Coleman](https://www.linkedin.com/in/chontele-coleman-94aa6136b)  
 - Email: chontelec@gmail.com
+
