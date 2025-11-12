@@ -30,7 +30,7 @@ Exploited the AlwaysInstallElevated setting on Windows 10 to gain elevated privi
 ### 📈 [Winlogbeat & ELK Stack Lab](./winlogbeat-elk-stack-lab)  
 Built a centralized log collection and visualization environment using Winlogbeat, Elasticsearch, and Kibana to simulate a Security Operations Center (SOC) environment. Collected Windows Security Events from multiple endpoints and visualized them in dashboards for monitoring and analysis.
 
-### 🧠 [Windows Event Log Analysis & SOC Dashboard (ELK Stack)](./windows-event-log-soc-dashboard)  
+### 🧠 [Windows Endpoint SOC Simulation using ELK & Sysmon](./Windows-Endpoint-SOC-Simulation-using-ELK-Sysmon)  
 Developed advanced Kibana dashboards to monitor Windows security telemetry using **Sysmon**, **Winlogbeat**, and the **ELK Stack**.  
 This project simulates SOC monitoring workflows, including registry changes, PowerShell event tracing, Defender alerts, and simulated lateral movement.  
 All dashboards and visualizations are built from real Windows 10 and Server 2019 log data, showing event correlation and analysis capabilities.
