@@ -6,31 +6,36 @@ Welcome to my personal cybersecurity lab! This repository showcases a collection
 
 ## 📁 Project Overview
 
-### 🔧 [Smart Thermostat Firmware Vulnerability Lab](./smart-thermostat-fw-vuln-lab)  
+
+###  [DNS Conflict, SSL Failure, and Subdomain Resolution] (./dns-conflict-ssl-failure-subdomain-resolution)
+This project documents a real-world DNS and SSL troubleshooting scenario involving a client whose website was experiencing persistent “connection not private” errors and domain-routing failures. The work included identifying misconfigured DNS records, resolving SSL validation issues, navigating platform limitations between a website builder and a marketing platform, and implementing a subdomain-based solution to restore site stability. The final configuration ensured secure, reliable access and fully functional domain routing, demonstrating practical problem-solving in a live production environment.
+
+
+###  [Smart Thermostat Firmware Vulnerability Lab](./smart-thermostat-fw-vuln-lab)  
 Simulates an unsigned firmware update vulnerability in a smart thermostat environment. Demonstrates how attackers could exploit weak update mechanisms and how these flaws can be safely tested in a lab.
 
-### 📊 [Real-World Attack Monitoring with Splunk](./splunk-threat-monitoring)  
+###  [Real-World Attack Monitoring with Splunk](./splunk-threat-monitoring)  
 Monitored simulated attacks using Splunk SIEM. Collected and analyzed log data to detect anomalies, generate alerts, and understand attacker behavior through dashboards and queries.
 
-### 🕵️ [Simulated Penetration Test Report](./pentest-report-simulation)  
+###  [Simulated Penetration Test Report](./pentest-report-simulation)  
 Developed a structured pentest report following a simulated system assessment. Includes defined scope, methodology, discovered vulnerabilities, and actionable remediation recommendations.
 
-### 🛠️ [Linux Hardening with Technical Brief](./linux-hardening-brief)  
+###  [Linux Hardening with Technical Brief](./linux-hardening-brief)  
 Performed a hardening process on a Linux system, disabling unnecessary services and enforcing security configurations. Includes a concise technical brief explaining the steps and their impact.
 
-### 👤 [Linux User Manager CLI Tool](./linux-user-manager)  
+###  [Linux User Manager CLI Tool](./linux-user-manager)  
 Built a command-line interface (CLI) tool to manage users and groups on a Linux system. Demonstrates scripting, user/group management, and secure system administration skills.
 
-### 🌐 [Linux Network Diagnostics Project](./linux-network-diagnostics)  
+###  [Linux Network Diagnostics Project](./linux-network-diagnostics)  
 Conducted a network diagnostics session on Ubuntu using command-line tools such as `ip`, `ss`, `netstat`, `ping`, and `traceroute`. Includes log captures, analysis, and documentation — highlighting proficiency in system networking fundamentals and troubleshooting.
 
-### 🪟 [Windows Privilege Escalation: AlwaysInstallElevated](./always-install-elevated-win10)  
+###  [Windows Privilege Escalation: AlwaysInstallElevated](./always-install-elevated-win10)  
 Exploited the AlwaysInstallElevated setting on Windows 10 to gain elevated privileges. Demonstrates a well-known local escalation method and includes walkthrough steps and mitigation advice.
 
-### 📈 [Winlogbeat & ELK Stack Lab](./winlogbeat-elk-stack-lab)  
+###  [Winlogbeat & ELK Stack Lab](./winlogbeat-elk-stack-lab)  
 Built a centralized log collection and visualization environment using Winlogbeat, Elasticsearch, and Kibana to simulate a Security Operations Center (SOC) environment. Collected Windows Security Events from multiple endpoints and visualized them in dashboards for monitoring and analysis.
 
-### 🧠 [Windows Endpoint SOC Simulation using ELK & Sysmon](./Windows-Endpoint-SOC-Simulation-using-ELK-Sysmon
+###  [Windows Endpoint SOC Simulation using ELK & Sysmon](./Windows-Endpoint-SOC-Simulation-using-ELK-Sysmon
 Built a simulated SOC environment using Sysmon, Winlogbeat, Elasticsearch, and Kibana to monitor real Windows 10 and Windows Server 2019 endpoint activity. This project captures detailed security telemetry—including process creation events, registry modifications, PowerShell execution, network events, and Defender alerts—and visualizes them through custom Kibana dashboards.
 Demonstrates SOC workflows such as event correlation, rule tuning, suspicious behavior detection, and investigation of simulated lateral movement.
 
