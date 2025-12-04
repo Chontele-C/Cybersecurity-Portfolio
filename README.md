@@ -7,7 +7,7 @@ Welcome to my personal cybersecurity lab! This repository showcases a collection
 ## 📁 Project Overview
 
 
-###  [DNS Conflict, SSL Failure, and Subdomain Resolution] (./dns-conflict-ssl-failure-subdomain-resolution)
+###  DNS Conflict, SSL Failure, and Subdomain Resolution (./dns-conflict-ssl-failure-subdomain-resolution)
 This project documents a real-world DNS and SSL troubleshooting scenario involving a client whose website was experiencing persistent “connection not private” errors and domain-routing failures. The work included identifying misconfigured DNS records, resolving SSL validation issues, navigating platform limitations between a website builder and a marketing platform, and implementing a subdomain-based solution to restore site stability. The final configuration ensured secure, reliable access and fully functional domain routing, demonstrating practical problem-solving in a live production environment.
 
 
@@ -35,7 +35,7 @@ Exploited the AlwaysInstallElevated setting on Windows 10 to gain elevated privi
 ###  [Winlogbeat & ELK Stack Lab](./winlogbeat-elk-stack-lab)  
 Built a centralized log collection and visualization environment using Winlogbeat, Elasticsearch, and Kibana to simulate a Security Operations Center (SOC) environment. Collected Windows Security Events from multiple endpoints and visualized them in dashboards for monitoring and analysis.
 
-###  [Windows Endpoint SOC Simulation using ELK & Sysmon](./Windows-Endpoint-SOC-Simulation-using-ELK-Sysmon
+###  Windows Endpoint SOC Simulation using ELK & Sysmon (./Windows-Endpoint-SOC-Simulation-using-ELK-Sysmon
 Built a simulated SOC environment using Sysmon, Winlogbeat, Elasticsearch, and Kibana to monitor real Windows 10 and Windows Server 2019 endpoint activity. This project captures detailed security telemetry—including process creation events, registry modifications, PowerShell execution, network events, and Defender alerts—and visualizes them through custom Kibana dashboards.
 Demonstrates SOC workflows such as event correlation, rule tuning, suspicious behavior detection, and investigation of simulated lateral movement.
 
