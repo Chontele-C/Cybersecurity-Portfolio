@@ -7,6 +7,9 @@ Welcome to my personal cybersecurity lab! This repository showcases a collection
 ## 📁 Project Overview
 
 
+### Home Network Security Assessment
+Performed a defensive security assessment of a home network by inventorying connected devices, mapping IP/MAC addresses, analyzing open ports and services, and validating router and Wi-Fi security controls using Nmap and arp-scan.
+
 ###  DNS Conflict, SSL Failure, and Subdomain Resolution
 This project documents a real-world DNS and SSL troubleshooting scenario involving a client whose website was experiencing persistent “connection not private” errors and domain-routing failures. The work included identifying misconfigured DNS records, resolving SSL validation issues, navigating platform limitations between a website builder and a marketing platform, and implementing a subdomain-based solution to restore site stability. The final configuration ensured secure, reliable access and fully functional domain routing, demonstrating practical problem-solving in a live production environment.
 
