@@ -6,6 +6,9 @@ Welcome to my personal cybersecurity lab! This repository showcases a collection
 
 ## 📁 Project Overview
 
+### SaaS Application Support Lab-Nextcloud
+Built a hands-on SaaS Application Support lab using Nextcloud to simulate real-world Tier 1 and Tier 2 support scenarios. Troubleshot common issues including login failures, password recovery, file upload and quota errors, missing files requiring reindexing, and permission-restricted file sharing. Used both the web interface and Linux command-line tools to investigate and resolve issues. This project demonstrates practical SaaS support, troubleshooting, and documentation skills applicable to application support and SOC-adjacent roles.
+
 ### Zero Trust Simulation
 This project simulates a Zero Trust network architecture using pfSense and Active Directory to enforce identity-based access and default-deny segmentation. Internal networks are isolated into security zones, preventing lateral movement and unauthorized access by default. Centralized authentication is provided through Active Directory integration, with secure remote access designed via OpenVPN. The project highlights both implemented controls and real-world troubleshooting challenges common in enterprise security environments.
 
