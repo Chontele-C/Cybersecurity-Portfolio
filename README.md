@@ -4,7 +4,11 @@ Welcome to my personal cybersecurity lab! This repository showcases a collection
 
 ---
 
-## 📁 Project Overview
+## Project Overview
+
+### AWS IAM Misconfiguration & Least-Privilege Hardening Lab
+This project demonstrates the identification and remediation of a high-risk AWS IAM misconfiguration. An intentionally over-privileged user was analyzed, hardened using least-privilege group-based access and MFA, and validated through CloudTrail logging to confirm denied actions and detection capability.
+
 
 ### SaaS Application Support Lab-Nextcloud
 Built a hands-on SaaS Application Support lab using Nextcloud to simulate real-world Tier 1 and Tier 2 support scenarios. Troubleshot common issues including login failures, password recovery, file upload and quota errors, missing files requiring reindexing, and permission-restricted file sharing. Used both the web interface and Linux command-line tools to investigate and resolve issues. This project demonstrates practical SaaS support, troubleshooting, and documentation skills applicable to application support and SOC-adjacent roles.
