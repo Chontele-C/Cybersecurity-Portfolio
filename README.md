@@ -6,6 +6,9 @@ Welcome to my personal cybersecurity lab! This repository showcases a collection
 
 ## Project Overview
 
+### Azure Control Plane Monitoring & Insider Threat Detection
+This project demonstrates monitoring and analysis of Azure administrative activity to detect insider risk. The project simulates identity lifecycle and RBAC changes, evaluates audit log visibility, and maps findings to NIST and ISO access control and audit frameworks. It highlights how strong security controls, like MFA, deter low-effort insider activity while providing SOC-relevant detection insights.
+
 ### AWS IAM Misconfiguration & Least-Privilege Hardening Lab
 This project demonstrates the identification and remediation of a high-risk AWS IAM misconfiguration. An intentionally over-privileged user was analyzed, hardened using least-privilege group-based access and MFA, and validated through CloudTrail logging to confirm denied actions and detection capability.
 
