@@ -6,6 +6,9 @@ Welcome to my personal cybersecurity lab! This repository showcases a collection
 
 ## Project Overview
 
+### Linux Kiosk Environment Deployment & Remote Access Project
+This project simulates troubleshooting common issues with Linux-based kiosks, including calibration script failures and scanner/cutter malfunctions. It demonstrates structured diagnostics, file and process management, network troubleshooting, Bash scripting for automated fixes, and remote support via SSH. The project showcases practical Linux skills, problem-solving methodology, and operational workflow in a realistic kiosk environment.
+
 ### Azure Control Plane Monitoring & Insider Threat Detection
 This project demonstrates monitoring and analysis of Azure administrative activity to detect insider risk. The project simulates identity lifecycle and RBAC changes, evaluates audit log visibility, and maps findings to NIST and ISO access control and audit frameworks. It highlights how strong security controls, like MFA, deter low-effort insider activity while providing SOC-relevant detection insights.
 
