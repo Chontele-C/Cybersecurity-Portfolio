@@ -1,87 +1,84 @@
-🛡️ Cybersecurity Portfolio Lab
+Chontele Coleman – Cybersecurity & IT Applied Portfolio
+Welcome to my professional portfolio. These deployments, simulations, and operational exercises showcase applied experience across cybersecurity, IT support, cloud security, and SOC environments. Each entry demonstrates real-world problem-solving, technical proficiency, and operational workflow—highlighting skills typically gained in enterprise and client-facing settings.
 
-Welcome to my personal cybersecurity lab! This repository showcases a collection of hands-on projects that demonstrate my skills in vulnerability simulation, system diagnostics, SIEM analysis, Linux/Windows security, and privilege escalation. Each project folder contains documentation and technical summaries to showcase my practical capabilities.
-
----
-
-## Project Overview
-
-### Azure Control Plane Monitoring & Insider Threat Detection
-This project demonstrates monitoring and analysis of Azure administrative activity to detect insider risk. The project simulates identity lifecycle and RBAC changes, evaluates audit log visibility, and maps findings to NIST and ISO access control and audit frameworks. It highlights how strong security controls, like MFA, deter low-effort insider activity while providing SOC-relevant detection insights.
-
-### AWS IAM Misconfiguration & Least-Privilege Hardening Lab
-This project demonstrates the identification and remediation of a high-risk AWS IAM misconfiguration. An intentionally over-privileged user was analyzed, hardened using least-privilege group-based access and MFA, and validated through CloudTrail logging to confirm denied actions and detection capability.
+Portfolio Highlights
+Linux & Endpoint Administration
+Linux Kiosk Environment Deployment & Remote Support – Troubleshot hardware and software issues, automated fixes via Bash, and enabled remote management through SSH.
 
 
-### SaaS Application Support Lab-Nextcloud
-Built a hands-on SaaS Application Support lab using Nextcloud to simulate real-world Tier 1 and Tier 2 support scenarios. Troubleshot common issues including login failures, password recovery, file upload and quota errors, missing files requiring reindexing, and permission-restricted file sharing. Used both the web interface and Linux command-line tools to investigate and resolve issues. This project demonstrates practical SaaS support, troubleshooting, and documentation skills applicable to application support and SOC-adjacent roles.
-
-### Zero Trust Simulation
-This project simulates a Zero Trust network architecture using pfSense and Active Directory to enforce identity-based access and default-deny segmentation. Internal networks are isolated into security zones, preventing lateral movement and unauthorized access by default. Centralized authentication is provided through Active Directory integration, with secure remote access designed via OpenVPN. The project highlights both implemented controls and real-world troubleshooting challenges common in enterprise security environments.
+Linux Hardening with Technical Brief – Enforced security configurations, disabled unnecessary services, and documented operational impact.
 
 
-### Home Network Security Assessment
-Performed a defensive security assessment of a home network by inventorying connected devices, mapping IP/MAC addresses, analyzing open ports and services, and validating router and Wi-Fi security controls using Nmap and arp-scan.
-
-###  DNS Conflict, SSL Failure, and Subdomain Resolution
-This project documents a real-world DNS and SSL troubleshooting scenario involving a client whose website was experiencing persistent “connection not private” errors and domain-routing failures. The work included identifying misconfigured DNS records, resolving SSL validation issues, navigating platform limitations between a website builder and a marketing platform, and implementing a subdomain-based solution to restore site stability. The final configuration ensured secure, reliable access and fully functional domain routing, demonstrating practical problem-solving in a live production environment.
+Linux User Management CLI Tool – Developed a CLI tool to streamline user and group management.
 
 
-###  [Smart Thermostat Firmware Vulnerability Lab](./smart-thermostat-fw-vuln-lab)  
-Simulates an unsigned firmware update vulnerability in a smart thermostat environment. Demonstrates how attackers could exploit weak update mechanisms and how these flaws can be safely tested in a lab.
+Linux Network Diagnostics – Conducted network troubleshooting and diagnostics using command-line tools, with comprehensive logging and analysis.
 
-###  [Real-World Attack Monitoring with Splunk](./splunk-threat-monitoring)  
-Monitored simulated attacks using Splunk SIEM. Collected and analyzed log data to detect anomalies, generate alerts, and understand attacker behavior through dashboards and queries.
 
-###  [Simulated Penetration Test Report](./pentest-report-simulation)  
-Developed a structured pentest report following a simulated system assessment. Includes defined scope, methodology, discovered vulnerabilities, and actionable remediation recommendations.
+Cloud & Identity Security
+Azure Control Plane Monitoring & Insider Threat Analysis – Monitored administrative activity, mapped RBAC changes, and assessed controls using NIST/ISO frameworks.
 
-###  [Linux Hardening with Technical Brief](./linux-hardening-brief)  
-Performed a hardening process on a Linux system, disabling unnecessary services and enforcing security configurations. Includes a concise technical brief explaining the steps and their impact.
 
-###  [Linux User Manager CLI Tool](./linux-user-manager)  
-Built a command-line interface (CLI) tool to manage users and groups on a Linux system. Demonstrates scripting, user/group management, and secure system administration skills.
+AWS IAM Misconfiguration Remediation & Least-Privilege Enforcement – Hardened over-privileged IAM users, applied MFA, and validated actions via CloudTrail.
 
-###  [Linux Network Diagnostics Project](./linux-network-diagnostics)  
-Conducted a network diagnostics session on Ubuntu using command-line tools such as `ip`, `ss`, `netstat`, `ping`, and `traceroute`. Includes log captures, analysis, and documentation — highlighting proficiency in system networking fundamentals and troubleshooting.
 
-###  [Windows Privilege Escalation: AlwaysInstallElevated](./always-install-elevated-win10)  
-Exploited the AlwaysInstallElevated setting on Windows 10 to gain elevated privileges. Demonstrates a well-known local escalation method and includes walkthrough steps and mitigation advice.
+Application & SaaS Support
+SaaS Application Support: Nextcloud – Resolved login, file-sharing, and permission issues, using both web interfaces and Linux CLI tools.
 
-###  [Winlogbeat & ELK Stack Lab](./winlogbeat-elk-stack-lab)  
-Built a centralized log collection and visualization environment using Winlogbeat, Elasticsearch, and Kibana to simulate a Security Operations Center (SOC) environment. Collected Windows Security Events from multiple endpoints and visualized them in dashboards for monitoring and analysis.
 
-###  Windows Endpoint SOC Simulation using ELK & Sysmon 
-Built a simulated SOC environment using Sysmon, Winlogbeat, Elasticsearch, and Kibana to monitor real Windows 10 and Windows Server 2019 endpoint activity. This project captures detailed security telemetry—including process creation events, registry modifications, PowerShell execution, network events, and Defender alerts—and visualizes them through custom Kibana dashboards.
-Demonstrates SOC workflows such as event correlation, rule tuning, suspicious behavior detection, and investigation of simulated lateral movement.
+DNS & SSL Troubleshooting and Subdomain Resolution – Diagnosed and resolved domain and SSL errors in a production environment, restoring secure, reliable access.
 
----
 
-## 🧰 Tools & Skills Demonstrated
+Network & IoT Security
+Zero Trust Network Simulation – Designed identity-based access zones, isolated internal networks, and configured secure remote access via OpenVPN.
 
-- 🔹 Vulnerability Simulation & Exploitation  
-- 🔹 Splunk & ELK Stack SIEM Log Analysis  
-- 🔹 Windows Event Log Monitoring (Sysmon, Winlogbeat)  
-- 🔹 Linux User and Group Management  
-- 🔹 Network Troubleshooting (Ubuntu)  
-- 🔹 Penetration Testing Methodology  
-- 🔹 Windows Privilege Escalation  
-- 🔹 Secure Configuration & Hardening  
-- 🔹 Technical Documentation & Reporting  
 
----
+Home Network Security Assessment – Performed device inventory, service analysis, and port scanning to strengthen network security posture.
 
-## 📌 Purpose
 
-This repository serves as a learning and demonstration platform. Each project is designed to reflect real-world scenarios or certification-level skills, with a focus on clarity, reproducibility, and security best practices.
+Smart Thermostat Firmware Vulnerability Simulation – Modeled unsigned firmware update exploits safely to demonstrate IoT security risks and mitigation strategies.
 
----
 
-## 📫 Contact
+SOC & Threat Monitoring
+Real-World Attack Monitoring with Splunk – Collected and analyzed simulated attack data, detecting anomalies and generating actionable alerts.
 
-Want to connect, collaborate, or ask questions?
 
-- GitHub: [Chontele-C](https://github.com/Chontele-C)  
-- LinkedIn: [Chontele Coleman](https://www.linkedin.com/in/chontele-coleman-94aa6136b)  
-- Email: chontelec@gmail.com
+Winlogbeat & ELK Stack Deployment for SOC Simulation – Centralized log collection and visualization for SOC-style monitoring and analysis.
 
+
+Windows Endpoint SOC Simulation with Sysmon and ELK – Captured detailed telemetry, visualized suspicious behavior, and simulated incident detection workflows.
+
+
+Security Assessment & Reporting
+Structured Penetration Test Reporting – Created formal reports with scope, methodology, findings, and remediation recommendations.
+
+
+Windows Privilege Escalation: AlwaysInstallElevated – Explored controlled privilege escalation, documented processes, and provided mitigation guidance.
+
+
+
+Key Skills & Tools
+Operating Systems: Linux (Ubuntu, Debian), Windows 10/Server 2019
+
+
+Cloud & IAM: Azure, AWS IAM, RBAC, MFA
+
+
+Security Monitoring & SOC Tools: Splunk, ELK Stack, Sysmon, Winlogbeat
+
+
+Networking & Zero Trust: pfSense, OpenVPN, network diagnostics
+
+
+Scripting & Automation: Bash, CLI tools, process automation
+
+
+Support & Troubleshooting: SaaS applications, DNS/SSL, endpoint management
+
+
+Reporting & Documentation: Penetration test reporting, technical briefs, remediation guidance
+
+
+
+Portfolio Philosophy
+This collection demonstrates applied skills, operational workflows, and real-world problem-solving in cybersecurity and IT environments. Each entry focuses on practical outcomes, tool mastery, and security-conscious decision-making, positioning these experiences as professional expertise rather than academic exercises.
