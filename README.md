@@ -16,18 +16,27 @@ Designed and implemented an enterprise-style identity architecture using Microso
 
 Key elements included:
 
-• Administrative tier separation (Tier 0, Tier 1, Tier 2)
-• Role-Based Access Control (RBAC) for least-privilege access
-• Workforce identity organization using security groups
-• Enterprise application access management
-• Identity lifecycle workflows (Joiner / Mover / Leaver)
-• Governance validation using Entra audit logs
-• Conditional Access policy portfolio aligned with Zero Trust principles
+Administrative tier separation (Tier 0, Tier 1, Tier 2)
+Role-Based Access Control (RBAC) for least-privilege access
+Workforce identity organization using security groups
+Enterprise application access management
+Identity lifecycle workflows (Joiner / Mover / Leaver)
+Governance validation using Entra audit logs
+Conditional Access policy portfolio aligned with Zero Trust principles
+Web & Business Infrastructure
+Website SEO Deployment (Real-World Business Implementation)
 
-The architecture models how organizations structure identity governance within Microsoft Entra environments while accounting for platform licensing constraints.
+Implemented full SEO optimization for a live business website using Squarespace, including site-wide configuration, page-level metadata, and accessibility improvements. Validated performance and SEO using Google Lighthouse, achieving a 100% SEO score while optimizing within platform constraints.
+
+Google Search Console Implementation & Indexing Analysis
+
+Deployed and configured Google Search Console to verify domain ownership, submit sitemaps, and monitor indexing. Confirmed full page accessibility and analyzed early search performance trends in a live production environment.
+
+Google Workspace Deployment & Security Implementation (Live Environment)
+
+Deployed and secured a business environment using Google Workspace, implementing identity and access management, email authentication (SPF, DKIM, DMARC), and administrative controls. Designed onboarding/offboarding workflows and configured collaboration tools within real-world constraints.
 
 Linux & Endpoint Administration
-
 Linux Kiosk Environment Deployment & Remote Support
 
 Configured a Linux kiosk environment and provided remote troubleshooting through SSH. Diagnosed hardware and software issues, automated fixes with Bash scripting, and implemented remote management capabilities.
@@ -45,7 +54,6 @@ Linux Network Diagnostics
 Performed network diagnostics and troubleshooting using command-line utilities, documenting connectivity issues and resolution steps through structured logging and analysis.
 
 Cloud & Identity Security
-
 Azure Control Plane Monitoring & Insider Threat Analysis
 
 Monitored administrative activity across Azure control plane operations, mapped RBAC changes, and evaluated access governance controls using NIST and ISO security frameworks.
@@ -55,7 +63,6 @@ AWS IAM Least-Privilege Remediation
 Identified and remediated over-privileged IAM identities within AWS, enforcing least-privilege access policies, enabling MFA protections, and validating administrative activity through CloudTrail logging.
 
 Application & SaaS Support
-
 SaaS Application Support – Nextcloud
 
 Diagnosed and resolved login, file-sharing, and permission issues within a Nextcloud environment using both the web interface and Linux command-line tools.
@@ -65,7 +72,6 @@ DNS, SSL, and Subdomain Troubleshooting
 Investigated and resolved domain configuration issues, SSL certificate errors, and DNS resolution failures in a production environment, restoring secure and reliable service access.
 
 Network & IoT Security
-
 Zero Trust Network Architecture Simulation
 
 Designed segmented network zones using identity-based access control principles. Implemented secure remote access using OpenVPN and configured internal isolation between trusted and untrusted network segments.
@@ -79,7 +85,6 @@ Smart Thermostat Firmware Vulnerability Simulation
 Modeled an unsigned firmware update vulnerability scenario in a controlled environment to demonstrate IoT device security risks and mitigation strategies.
 
 SOC & Threat Monitoring
-
 Real-World Attack Monitoring with Splunk
 
 Collected and analyzed simulated attack telemetry within Splunk, identifying anomalies and generating security alerts based on suspicious activity patterns.
@@ -93,20 +98,19 @@ Windows Endpoint Security Monitoring with Sysmon and ELK
 Deployed Sysmon to capture detailed endpoint telemetry and integrated logs into ELK dashboards to simulate threat detection and incident analysis workflows.
 
 Security Assessment & Reporting
-
 Structured Penetration Test Reporting
 
 Developed formal penetration testing reports documenting scope, methodology, findings, and remediation recommendations aligned with industry reporting standards.
 
 Windows Privilege Escalation Analysis – AlwaysInstallElevated
 
-Conducted a controlled privilege escalation scenario within a Windows environment and documented mitigation strategies to prevent exploitation of the AlwaysInstallElevated configuration.
+Conducted a controlled privilege escalation scenario within a Windows environment and documented mitigation strategies to prevent exploitation.
 
 Key Skills & Tools
 Operating Systems
 
 Linux (Ubuntu, Debian)
-Windows 10 / Windows Server 2019
+Windows 11 / Windows 10 / Windows Server 2019
 
 Cloud & Identity Security
 
